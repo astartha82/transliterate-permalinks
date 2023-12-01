@@ -19,12 +19,13 @@ class TP_Options {
 	}
 
 	function tp_options_page() {
-		add_options_page(
-			'TP Options',
-			'TP Options',
-			'manage_options',
+		add_menu_page(
+			'Transliterate Permalinks', 
+			'Transliterate Permalinks', 
+			'manage_options', 
 			'tp_options',
-			array($this, 'tp_render_options')
+			array($this, 'tp_render_options'),
+			'dashicons-translation'
 		);
 	}
 
