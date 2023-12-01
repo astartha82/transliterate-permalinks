@@ -33,6 +33,9 @@ class TP_Options {
 ?>
 		<div class="wrap">
 			<style>
+#select_post_types, #select_taxonomies {
+	cursor: pointer;
+}
 #transliterate-all {
 	border-radius: 4px;
 	border: 1px solid #ccc;
